@@ -27,11 +27,14 @@ print(correct_ans)
 
 print()
 print(num_1,operator,num_2)
-user_ans = input("Answer: ")
+user_ans = float(input("Answer: "))
 
-
-if correct_ans == user_ans:
-    print("NICE! FIRST TRY!")
- 
-
-print(user_ans)
+while user_ans != correct_ans:
+    amt_wrong = amt_wrong + 1
+    print("Whoops, try again.")
+    user_ans = float(input("Answer: "))
+if user_ans == correct_ans:
+    if amt_wrong == 0:
+        print("NICE! FIRST TRY!")
+    else:
+        print("Correct! Took", amt_wrong + 1, "attempts")
