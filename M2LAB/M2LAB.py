@@ -1,5 +1,8 @@
 import random
-
+# MATTHEW BEDSOLE
+# CALCULATOR
+# 9/11/23
+# CTS 285
 
 num_1 = random.randint(1,10)
 num_2 = random.randint(1,10)
