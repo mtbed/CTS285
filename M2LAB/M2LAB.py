@@ -23,7 +23,7 @@ elif operator_num == 4:
     operator = "/"
     correct_ans = num_1 / num_2
 print("CALCULATOR\n\n")
-print(correct_ans)
+print("Correct Answer:", correct_ans)
 
 print()
 print(num_1,operator,num_2)
